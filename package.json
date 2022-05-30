@@ -1,0 +1,18 @@
+{
+  "name": "testcasegenerator",
+  "version": "1.0.0",
+  "description": "app to creat pdf based on test cases form ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "luis felipe",
+  "license": "ISC",
+    
+  "devDependencies": {
+    "electron": "^17.0.1",
+    "electron-builder": "^22.14.13"
+  }
+}

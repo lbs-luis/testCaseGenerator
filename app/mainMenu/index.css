@@ -1,0 +1,305 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw;
+    background-color: #333;
+    font-family: verdana;
+    overflow-x: hidden;
+}
+
+
+
+/* HEADER */
+
+
+header{
+    width: 700px;
+    height: 60px;
+    font-weight: 100;
+    font-family: Helvetica;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+header div{
+    background-color: #8e8e8e00;
+    float: left;
+    width: fit-content;
+    height: 60px;
+    margin-left: 2%;
+}
+
+header input{
+    width: 100%;
+    height: 100%;
+    background-color: #8e8e8e48;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+header label{
+    color: #B8B8B8;
+    font-size: 13px;
+    position: absolute;
+
+    margin-left: -129px;
+    margin-top: -15px;
+}
+
+
+
+header div:nth-child(1){
+    margin-left: 1%;
+    
+    
+}
+
+header div:nth-child(1) input{
+    border-radius: 0px 0px 30px 0px;
+    width: 60px;
+}
+
+header div:nth-child(1) label{
+    margin-left: -58px;
+    
+}
+
+
+
+
+
+header div:nth-child(2){
+    
+    width: 80px;
+
+
+}
+
+header div:nth-child(2) label{
+    margin-left: -80px;
+
+}
+
+
+
+
+
+header div:nth-child(3){
+    
+    width: 420px;
+
+
+}
+
+header div:nth-child(3) label{
+    margin-left: -420px;
+}
+
+
+
+header div:nth-child(4){
+    
+    width: 80px;
+
+}
+
+header div:nth-child(4) label{
+    margin-left: -80px;
+}
+
+
+/* Step list */
+
+.steplist{
+    width: 700px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.steplist span{
+    position: absolute;
+    margin-top: -23px;
+    color: #B8B8B8;
+    font-family: Verdana;
+    font-size: 14px;
+    margin-left: 45px;
+}
+
+.steplist input{
+    height: 30px;
+    width: 644px;
+    background-color: #8e8e8e48;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.line input:first-child{
+    width: 20px;
+    margin-left: 10px;
+    border-radius: 0px 90px 90px 0px;
+}
+
+
+.line{
+    float: left;
+    width: 700px;
+    margin-top: 15px;
+}
+
+.lines div:first-child{
+    margin-top: 0px;
+}
+
+.steplist button{
+    width: 30px;
+    height: 10px;
+    text-align: center;
+    line-height: 10px;
+    background-color: #B8B8B8;
+    color: #fff;
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.steplist button:active{
+    background-color: #696969;
+}
+
+.inputC{
+    margin-left: 15px !important;
+}
+
+.logs{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.logs span{
+    color: #B8B8B8;
+    font-family: Verdana;
+    font-size: 14px;
+    float: left;
+    margin-top: -20px;
+    margin-left: 100px;
+}
+.logs a{
+    color: #fff;
+}
+
+.r1{
+    width: 700px;;
+    border-left: solid 1px #fff;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.r2{
+    margin-top: 50px;
+    width: 700px;
+    border-left: solid 1px #fff;
+    margin-left: 10px;
+ 
+}
+
+.logs textarea{
+    max-width: 650px;
+    margin-left: 29px;
+    background-color: #8e8e8e48;
+    padding: 20px;
+    font-family: Verdana;
+    color: #fff;
+    font-size: 15px;
+    min-height: 130px;
+    min-width: 327px;
+
+
+}
+
+
+
+
+.salvar:hover{
+    border-color: rgba(0, 206, 0, 0.904);
+    color: rgba(0, 206, 0, 0.904);
+}
+
+
+
+/* Barra de rolagem */
+
+ /* width */
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(44, 44, 44);
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    
+  } 
+
+
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+
+
+.salvar{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: rgba(8, 158, 8, 0.87);
+    font-size: 14px;
+    border: solid 1px rgba(8, 158, 8, 0.87);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+  .armazenamento{
+      width: 400px;
+      height: 40px;
+      box-sizing: border-box;
+      padding: 3px;
+      text-align: center;
+      background-color: #8e8e8e48;
+      color: #fff;
+      font-size: 12px;
+      
+  }

@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+  <header>
+
+    <div><input type="text" class="tIndex"> <label for="" class="index">Index</label></div>
+    <div><input type="text" class="task"><label for="">Task</label></div>
+    <div><input type="text"><label for="">Caso de Teste</label></div>
+    <div class="border"><input type="text" class="statusBox" onkeyup="statusValidator()"><label for="">Status</label></div>
+
+  </header>
+
+  <div class="steplist">
+
+    <div class="container">
+        <span>Processos executados</span>
+
+        <div class="lines">
+
+        <div class="line">
+          <input type="text" id="contador" name="contador" value="1">
+          <input type="text">
+        </div>
+
+      </div>
+
+        <button class="addLine">+</button>
+        <button class="removeLine">-</button>
+        
+    </div>
+  </div>
+
+
+    <div class="logs">
+
+      <div class="r1">
+        <span>Resultado <a>Esperado</a></span>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+      </div>
+
+      <div class="r2">
+        <span>Resultado <a>Obtido</a></span>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+      </div>
+
+    </div>
+    <div class="footer">
+      <input type="text" placeholder="LOCAL DE ARMAZENAMENTO" class="armazenamento">
+      <button class="salvar">SALVAR PDF</button>
+    </div>
+</body>
+
+
+<script type="text/javascript" src="./index.js"></script>
+
+
+
+
+</html>
